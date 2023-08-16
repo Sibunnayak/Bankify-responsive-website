@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simpler banking experience for a simpler life."
+    />
+
+   
+    <!-- ICONS -->
+    <link rel="shortcut icon" href="./assets/logos/favicon.ico" />
+    <link rel="apple-touch-icon" href="./assets/logos/apple-touch-icon.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <!-- TYPOGRAPHY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- SCRIPTS -->
+    <script defer src="./assets/js/script.js"></script>
+    <title>Bankify &mdash; your next gen e-banking</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <span class="header__logo">Bankify</span>
+      </a>
+      <!-- NAVIGATION -->
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#section-features" class="navigation__link">Features</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#section-operations" class="navigation__link"
+              >Operations</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-testimonial" class="navigation__link"
+              >About Us</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__btn btn--open-modal custom">Sign In</a>
+          </li>
+          
+        </ul>
+      </nav>
+      <!-- MOBILE MENU BUTTON -->
+      <button class="header__menu-btn">
+        <span class="header__menu-line"></span>
+      </button>
+    </header>
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero__img-box">
+            <img
+              src="./assets/images/cards.png"
+              alt="Cards"
+              class="hero__img"
+            />
+          </div>
+          <div class="hero__textbox">
+            <h1 class="heading-primary mb-sm">
+              Meet the next generation <span>E-banking</span>
+            </h1>
+            <p class="hero__description mb-md">
+              Bankify is a safe, fast, easy, and efficient e-Banking system that enables you access to your bank account and to carry out online banking services, 24/7
+            </p>
+            <button  class="btn btn--md btn--outline btn--scroll-to">
+
+              <a href="acc.html"  target="
+              _blank"  >
+              Create Account
+              <svg class="btn__icon">
+                <use
+                  xlink:href="./assets/icons/sprite.svg#icon-chevron-thin-right"
+                ></use>
+              </svg>
+            </a>
+            </button>
+          
+            <a href="#" class="btn btn--normal">Visit Branch</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES SECTION -->
+      <section class="section section--bg" id="section-features">
+        <div class="container">
+          <span class="subheading mb-xs">Features</span>
+          <h2 class="heading-secondary mb-xl">
+            Browse our set of banking services and offerings
+          </h2>
+        </div>
+        <div class="container">
+          <div class="feature">
+            <!-- FIRST COLUMN -->
+            <div class="feature__text-box">
+              <div class="feature__header mb-sm">
+                <div class="feature__icon">
+                  <svg>
+                    <use xlink:href="./assets/icons/sprite.svg#icon-tv"></use>
+                  </svg>
+                </div>
+                <div class="feature__title">Online Payment</div>
+              </div>
+              <div class="feature__body mb-lg">
+                <p class="feature__description mb-sm">
+                  We have online payment services like PayPal, Stripe, Paystack, Skrill, Flutterwave, Mollie, Payeer, RazorPay, etc.
+                </p>
+                <ul class="list ml-md">
+                  <li class="list__item">
+                    <svg class="list__icon">
+                      <use
+                        xlink:href="./assets/icons/sprite.svg#icon-check"
+                      ></use>
+                    </svg>
+                    <span class="list__text">100% secured</span>
+                  </li>
+                  <li class="list__item">
+                    <svg class="list__icon">
+                      <use
+                        xlink:href="./assets/icons/sprite.svg#icon-check"
+                      ></use>
+                    </svg>
+                    <span class="list__text"
+                      >No Interest Charges</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <a href="pay.html" target="
+              _blank" class="btn btn--normal">
+                Proceed Now
+                <svg class="btn__icon">
+                  <use
+                    xlink:href="./assets/icons/sprite.svg#icon-chevron-thin-right"
+                  ></use>
+                </svg>
+              </a>
+            </div>
+            <div class="feature__img-box">
+              <img
+                src="./assets/images/digital-lazy.jpg"
+                data-src="./assets/images/digital.jpg"
+                alt="Digital"
+                class="feature__img feature__lazy-img"
+              />
+            </div>
+            <div class="feature__img-box">
+              <img
+                src="./assets/images/grow-lazy.jpg"
+                data-src="./assets/images/grow.jpg"
+                alt="Digital"
+                class="feature__img feature__lazy-img"
+              />
+            </div>
+            <div class="feature__text-box">
+              <div class="feature__header mb-sm">
+                <div class="feature__icon">
+                  <svg>
+                    <use
+                      xlink:href="./assets/icons/sprite.svg#icon-area-graph"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="feature__title">Take Loan</div>
+              </div>
+              <div class="feature__body mb-lg">
+                <p class="feature__description mb-sm">
+                  We have several plans to apply for a loan. You may apply to our loan plans by submitting some of your valid information.
+                </p>
+                <ul class="list ml-md">
+                 
+                  <li class="list__item">
+                    <svg class="list__icon">
+                      <use
+                        xlink:href="./assets/icons/sprite.svg#icon-check"
+                      ></use>
+                    </svg>
+                    <span class="list__text">No Hidden Charges</span>
+                  </li>
+                  <li class="list__item">
+                    <svg class="list__icon">
+                      <use
+                        xlink:href="./assets/icons/sprite.svg#icon-check"
+                      ></use>
+                    </svg>
+                    <span class="list__text">Low Intrest Rate</span>
+                  </li>
+                </ul>
+              </div>
+
+              <a href="loan.html" target="
+              _blank" class="btn btn--normal">
+
+                             Proceed Now
+                <svg class="btn__icon">
+                  <use
+                    xlink:href="./assets/icons/sprite.svg#icon-chevron-thin-right"
+                  ></use>
+                </svg>
+              </a>
+            </div>
+            <div class="feature__text-box">
+              <div class="feature__header mb-sm">
+                <div class="feature__icon">
+                  <svg>
+                    <use
+                      xlink:href="./assets/icons/sprite.svg#icon-credit-card"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="feature__title">Transfer Money</div>
+              </div>
+              <div class="feature__body mb-lg">
+                <p class="feature__description mb-sm">
+                  You are able to transfer your funds within the Viserbank or other banks we support by adding your beneficiaries
+                </p>
+                <ul class="list ml-md">
+                 
+                  <li class="list__item">
+                    <svg class="list__icon">
+                      <use
+                        xlink:href="./assets/icons/sprite.svg#icon-check"
+                      ></use>
+                    </svg>
+                    <span class="list__text">Instant Transfer</span>
+                  </li>
+                  <li class="list__item">
+                    <svg class="list__icon">
+                      <use
+                        xlink:href="./assets/icons/sprite.svg#icon-check"
+                      ></use>
+                    </svg>
+                    <span class="list__text">Bank and Merchant Rewards</span>
+                  </li>
+                </ul>
+              </div>
+              <a href="trans.html" target="
+              _blank" class="btn btn--normal">
+                Proceed Now
+                <svg class="btn__icon">
+                  <use
+                    xlink:href="./assets/icons/sprite.svg#icon-chevron-thin-right"
+                  ></use>
+                </svg>
+              </a>
+            </div>
+            <div class="feature__img-box">
+              <img
+                src="./assets/images/card-lazy.jpg"
+                data-src="./assets/images/card.jpg"
+                alt="Digital"
+                class="feature__img feature__lazy-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- OPERATIONS SECTION -->
+      <section class="section" id="section-operations">
+        <div class="container">
+          <span class="subheading mb-xs">Operations</span>
+          <h2 class="heading-secondary mb-xl">
+            Everything as simple as possible, but no simpler.
+          </h2>
+        </div>
+        <div class="container">
+          <div class="operations">
+            <aside class="operations__img-container">
+              <figure class="operations__img-box">
+                <img
+                  src="./assets/images/transfer.jpg"
+                  alt="Transfer money"
+                  class="operations__img operations__img--1 operations__img--active"
+                />
+              </figure>
+              <figure class="operations__img-box">
+                <img
+                  src="./assets/images/loan.jpg"
+                  alt="Transfer money"
+                  class="operations__img operations__img--2"
+                />
+              </figure>
+              <figure class="operations__img-box">
+                <img
+                  src="./assets/images/close-account.jpg"
+                  alt="Transfer money"
+                  class="operations__img operations__img--3"
+                />
+              </figure>
+            </aside>
+            <aside class="operations__list-container">
+              <div class="operations__accordion">
+                <h3
+                  class="operations__heading operations__heading--active"
+                  data-accordion="1"
+                >
+                  01 Open an Account
+                </h3>
+                <div
+                  class="operations__content operations__content--1 operations__content--active"
+                >
+                  <p class="operations__subheading">
+                    Tranfser money and much more to explore.
+                  </p>
+                  <p class="operations__description">
+                   To be an account holder you have to open an account first and you need to verify your Email and Mobile Number.                  </p>
+                  <figure class="operations__inner-photo">
+                    <img
+                      src="./assets/images/transfer.jpg"
+                      alt="Transfer money"
+                      class="operations__photo"
+                    />
+                  </figure>
+                </div>
+              </div>
+              <div class="operations__accordion">
+                <h3 class="operations__heading" data-accordion="2">
+                  02 Deposit
+                </h3>
+                <div class="operations__content operations__content--2">
+                  <p class="operations__subheading">
+                    Make your dreams come true.
+                  </p>
+                  <p class="operations__description">
+                    Deposit some funds before applying on any FDR or DPS plans.
+                  </p>
+                  <figure class="operations__inner-photo">
+                    <img
+                      src="./assets/images/loan.jpg"
+                      alt="Transfer money"
+                      class="operations__photo"
+                    />
+                  </figure>
+                </div>
+              </div>
+              <div class="operations__accordion">
+                <h3 class="operations__heading" data-accordion="3">
+                  03 Get Service
+                </h3>
+                <div class="operations__content operations__content--3">
+                  <p class="operations__subheading">
+                    Avail our services right from our mobile App
+                  </p>
+                  <p class="operations__description">
+                    Now you can get any of our services as our registered account-holder
+                  </p>
+                  <figure class="operations__inner-photo">
+                    <img
+                      src="./assets/images/close-account.jpg"
+                      alt="Transfer money"
+                      class="operations__photo"
+                    />
+                  </figure>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <!-- TESTIMONIAL SECTION -->
+      <section class="section section--bg" id="section-testimonial">
+        <div class="container">
+          <span class="subheading mb-xs">About Us</span>
+          <h2 class="heading-secondary mb-lg">
+            We care about your money and safety.
+          </h2>
+        </div>
+        <div class="container">
+          <div class="slider">
+            <div class="slide">
+              <div class="testimonial">
+             
+                <div class="testimonial__info">
+                  <div class="testimonial__heading mb-sm">Our Mission
+                  </div>
+                  <blockquote class="testimonial__text mb-lg">We are focused on building and sustaining long-term generational relationships with our customers.
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="testimonial">
+               
+                <div class="testimonial__info">
+                  <div class="testimonial__heading mb-sm">
+                    Our Vision
+                  </div>
+                  <blockquote class="testimonial__text mb-lg">Viserbank will serve all over the world and becomes the most popular Bank in this universe.
+                  </blockquote>
+                 </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="testimonial">
+               
+                <div class="testimonial__info">
+                  <div class="testimonial__heading mb-sm">Our Goal
+                  </div>
+                  <blockquote class="testimonial__text mb-lg">
+                    Viserbank will serve their customers from all over the world and becomes the popular bank in this universe.
+                  </blockquote>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="slider__controls">
+              <button
+                class="slider__btn slider__btn--left"
+                aria-label="previous"
+              >
+                <svg class="slider__icon">
+                  <use
+                    xlink:href="./assets/icons/sprite.svg#icon-chevron-thin-left"
+                  ></use>
+                </svg>
+              </button>
+              <button class="slider__btn slider__btn--right" aria-label="next">
+                <svg class="slider__icon">
+                  <use
+                    xlink:href="./assets/icons/sprite.svg#icon-chevron-thin-right"
+                  ></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT SECTION -->
+      <section class="section-signup" id="section-contact">
+        <div class="container-sm">
+          <span class="subheading mb-xs">Get in touch</span>
+          <h2 class="heading-secondary mb-lg">
+            The best day to join Bankist was one year ago. The second best is
+            today!
+          </h2>
+          <button class="btn btn--md btn--outline btn--scroll-to">
+            <a href="acc.html"  target="
+            _blank"  >
+            Open your free account today!
+            </a>
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__brand">
+            <a href="#">
+              <h2 class="footer__logo mb-sm">Bankify</h2>
+            </a>
+            <p class="footer__description mb-md">
+              your next gen e-banking
+            </p>
+            <ul class="footer__social">
+              <li>
+                <a href="#" class="footer__social-item" aria-label="Facebook">
+                  <svg class="footer__social-icon">
+                    <use
+                      xlink:href="./assets/icons/sprite.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__social-item" aria-label="Instagram">
+                  <svg class="footer__social-icon">
+                    <use
+                      xlink:href="./assets/icons/sprite.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__social-item" aria-label="Twitter">
+                  <svg class="footer__social-icon">
+                    <use
+                      xlink:href="./assets/icons/sprite.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <p class="footer__header mb-md">Bank</p>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Savings Account</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Checking Account</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy Policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <p class="footer__header mb-md">Cards</p>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Credit Card</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Debit Card</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Prepaid Card</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <p class="footer__header mb-md">Borrow</p>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Auto Loan</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Home Loan</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Personal Loan</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Car Marketplace</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">
+            Sibun Nayak
+            <span class="footer__year">2000</span> All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- MODAL -->
+    <div class="modal hidden">
+      <div class="modal__header">
+        <div class="modal__heading">
+          <h2 class="modal__title mb-xs">Open account</h2>
+          <p class="modal__subheading">
+            your next gen e-banking
+          </p>
+        </div>
+        <button class="modal__close-btn btn--close-modal">
+          <svg class="modal__close-icon">
+            <use xlink:href="./assets/icons/sprite.svg#icon-x"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="modal__body">
+        <form class="modal__form">
+          <div class="input__group">
+            <label for="firstName" class="input__label">First Name</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              class="input__form"
+              placeholder="Jan Kenneth"
+              required
+            />
+          </div>
+          <div class="input__group">
+            <label for="lastName" class="input__label">Last Name</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              class="input__form"
+              placeholder="Sajo"
+              required
+            />
+          </div>
+          <div class="input__group">
+            <label for="email" class="input__label">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input__form"
+              placeholder="jankennethsajo@gmail.com"
+              required
+            />
+          </div>
+        </form>
+      </div>
+      <div class="modal__footer">
+        <button class="btn btn--normal btn--close-modal">Cancel</button>
+        <button class="btn btn--primary btn--sm">
+          Next step
+          <svg class="btn__icon">
+            <use
+              xlink:href="./assets/icons/sprite.svg#icon-chevron-thin-right"
+            ></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
